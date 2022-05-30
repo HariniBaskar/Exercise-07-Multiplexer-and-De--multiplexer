@@ -47,9 +47,8 @@ If the data bit D is low, the output Y1 is low. IF data bit D is high, the outpu
 
 If the control input changes to AB = 10, then all the gates are restricted except the third AND gate from the top. Then, data bit D is transmitted only to the output Y2; and, Y2 = Data. . The best example of 1X4 demultiplexer is IC 74155.
 
- 
- 
-### Procedure
+
+### PROCEDURE
 1. Start the module using module projname().
 2. Declare the inputs and outputs along with the select lines according to the multiplexer and demultiplexer.
 3. Use wire to assign intermediate outputs.
@@ -96,30 +95,26 @@ and(Y3,I,S0,S1);
 endmodule
 ```
 
-
-
-
-
 ### RTL LOGIC  
+## 4X1 Multiplexer:
+![multiplex](https://user-images.githubusercontent.com/93427253/170924188-ce2346f1-566b-4dd5-b625-fa4a0fefe126.png)
+## 1X4 DE-Multiplexer:
+![de multiplex](https://user-images.githubusercontent.com/93427253/170924213-03360478-24b9-4e43-aaf1-eed3bcacf3fa.png)
 
-
-
-
-
-
-
-
-### TIMING DIGRAMS  
-
-
-
-
+### TIMING DIAGRAMS  
+## 4X1 Multiplexer:
+![i0m](https://user-images.githubusercontent.com/93427253/170924822-bfe71abe-ecf8-462c-a253-90131410e730.png)
+![i1m](https://user-images.githubusercontent.com/93427253/170924845-8fe2283e-72b4-4b62-b887-6e13e74fc707.png)
+![i2m](https://user-images.githubusercontent.com/93427253/170924858-05671cb0-a320-497b-8526-f53e5d29e430.png)
+![i4m](https://user-images.githubusercontent.com/93427253/170924900-b9c2f7de-66e1-497f-b1ef-c644b802ac84.png)
+## 1X4 DE-Multiplexer:
+![idm](https://user-images.githubusercontent.com/93427253/170924933-b07616d7-91bb-4a5a-ad66-8f0996229004.png)
 
 ### TRUTH TABLE 
-
-
-
-
-
+## 4X1 Multiplexer:
+![mult](https://user-images.githubusercontent.com/93427253/170924997-7c46e4a9-0f1d-4442-8386-aad6b8fca1de.png)
+## 1X4 DE-Multiplexer:
+![demul](https://user-images.githubusercontent.com/93427253/170925037-e67e0a33-4667-4516-ba81-e0a753681d13.png)
 
 ### RESULTS 
+Hence 4x1 Multiplexer and 1x4 Demultiplexer is been implemented and verified using verilog programming and its output are validated.
